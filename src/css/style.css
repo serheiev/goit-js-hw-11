@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.search-panel {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background-color: #3f56b1;
+}
+.search-form {
+  display: flex;
+}
+
+.search-form input {
+  padding: 12px 20px;
+  border: none;
+  outline: none;
+}
+
+.search-form button {
+  border: none;
+  padding-right: 15px;
+  padding-left: 15px;
+  cursor: pointer;
+}
