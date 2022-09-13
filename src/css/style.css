@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+.gallery {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
 .search-panel {
   display: flex;
   justify-content: center;
@@ -20,9 +26,49 @@
   outline: none;
 }
 
-.search-form button {
+.search-form > button {
   border: none;
   padding-right: 15px;
   padding-left: 15px;
   cursor: pointer;
+}
+
+.content {
+  padding: 15px 25px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.photo-card {
+  overflow: hidden;
+}
+
+.photo-link {
+  overflow: hidden;
+}
+
+.photo-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.info {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.load-more {
+  cursor: pointer;
+  border: none;
+  padding: 10px 15px;
+  background-color: #3f56b1;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.load-more:hover {
+  background-color: #5a72d6;
 }
