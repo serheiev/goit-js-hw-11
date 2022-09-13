@@ -57,7 +57,12 @@
 .info {
   display: flex;
   list-style: none;
-  justify-content: center;
+  justify-content: space-around;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
 }
 
 .load-more {
