@@ -12,7 +12,7 @@ const content = document.querySelector('.content');
 const q = document.querySelector('#search-form input');
 const btnLoadMore = document.querySelector('.load-more');
 const card = new SimpleLightbox('.content a', {});
-const perPage = 200;
+const perPage = 40;
 let page = 1;
 
 form.addEventListener('submit', e => {
